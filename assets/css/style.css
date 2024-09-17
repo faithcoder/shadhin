@@ -1,3 +1,13 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Inter', sans-serif;
+
+}
+
+
 ul.shadhin-navbar li {
     position: relative;
   }
@@ -21,3 +31,23 @@ ul.shadhin-navbar li {
   
   ul.shadhin-navbar li a:hover {text-decoration: none}
   
+  h1.shadhin-title{
+    background-image: linear-gradient(45deg, #f857a6, #ff5858);
+    background-clip: text;         /* Standard syntax */
+    color: transparent;            /* Ensures text is transparent */
+  }
+
+  h1.shadhin-404-title
+  {
+    background-image: -webkit-linear-gradient(45deg, black, transparent); /* For older Chrome, Safari, Opera */
+    background-image: -moz-linear-gradient(45deg, black, transparent);    /* For older Firefox */
+    background-image: -ms-linear-gradient(45deg, black, transparent);     /* For Internet Explorer 10+ */
+    background-image: -o-linear-gradient(45deg, black, transparent);      /* For older Opera */
+    background-image: linear-gradient(45deg, black, transparent);         /* Standard syntax */
+    
+    -webkit-background-clip: text; /* For WebKit browsers */
+    -moz-background-clip: text;    /* For older Firefox */
+    background-clip: text;         /* Standard syntax */
+    
+    color: transparent;            /* Ensures text is transparent */
+}

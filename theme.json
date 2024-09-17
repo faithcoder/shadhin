@@ -42,9 +42,9 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "Math, Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFamily": "Inter, Math, Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "Inter",
+					"slug": "inter"
 				}
 			],
 			"fontSizes": [
