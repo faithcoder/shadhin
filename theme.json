@@ -76,6 +76,20 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
+		"spacing": {
+			"blockGap": "1.5rem",
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.6"
+		},
 		"elements": {
 			"button": {
 				":active": {
@@ -163,21 +177,25 @@
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
 				}
+			},
+			"group": {
+				"shadhin-hero": {
+					"color": {
+						"background": "url(/assets/images/hero-bg.jpg)",
+						"backgroundPosition": "50% 50%"
+					},
+					"spacing": {
+						"padding": {
+							"top": "10rem",
+							"bottom": "10rem"
+						},
+						"margin": {
+							"top": "0",
+							"bottom": "0"
+						}
+					}
+				}
 			}
-		},
-		"spacing": {
-			"blockGap": "1.5rem",
-			"padding": {
-				"bottom": "0px",
-				"left": "0px",
-				"right": "0px",
-				"top": "0px"
-			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system-font)",
-			"fontSize": "var(--wp--preset--font-size--medium)",
-			"lineHeight": "1.6"
 		}
 	},
 	"version": 2
