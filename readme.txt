@@ -12,6 +12,9 @@ Shadhin is a minimalist WordPress block theme, designed for seamless integration
 
 == Changelog ==
 
+= 1.0.3 =
+* Theme tags are updated
+
 = 1.0.2 =
 * Custom Block Style added
 * Copyright updated
