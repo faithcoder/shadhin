@@ -11,6 +11,9 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 Shadhin is a minimalist WordPress block theme, designed for seamless integration with the Gutenberg editor. Especially this theme is created for build a site from scratch with WordPress and Gutenberg.
 
 == Changelog ==
+= 1.0.4 =
+* image sections are updated
+* Font license added
 
 = 1.0.3 =
 * Theme tags are updated
