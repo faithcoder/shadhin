@@ -42,28 +42,6 @@ function shadhin_enqueue_custom_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'shadhin_enqueue_custom_styles' );
 
-// function shadhin_enqueue_styles() {
-//     // Enqueue your theme's main stylesheet.
-//     wp_enqueue_style( 'shadhin-style', get_stylesheet_uri() );
-
-//     // Add dynamic inline CSS for the background image.
-//     $background_image_url = esc_url( get_template_directory_uri() . '/assets/images/hero-bg.jpg' );
-//     $custom_css = "
-//         .shadhin-hero {
-//             background-image: url('{$background_image_url}');
-//             background-position: 50% 50%;
-// 			background-size: cover;
-//             padding-top: 10rem;
-//             padding-bottom: 10rem;
-//             margin-top: 0;
-//             margin-bottom: 0;
-//         }
-//     ";
-//     wp_add_inline_style( 'shadhin-style', $custom_css );
-// }
-// add_action( 'wp_enqueue_scripts', 'shadhin_enqueue_styles' );
-
-
 function shadhin_register_block_patterns() {
     if ( function_exists( 'register_block_pattern' ) ) {
         register_block_pattern(
