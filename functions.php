@@ -71,5 +71,3 @@ function shadhin_register_block_styles() {
     }
 }
 add_action( 'init', 'shadhin_register_block_styles' );
-
-
